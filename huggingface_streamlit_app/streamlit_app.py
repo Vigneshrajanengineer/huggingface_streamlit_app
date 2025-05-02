@@ -2,7 +2,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title("Generative_AI_Task(Sentiment Analysis,Text Generation,Summarization)")
+st.title("Gen_AI_Task(Sentiment Analysis ,Text Generation, Summarization)")
 
 task = st.selectbox("Choose Task", ["Sentiment Analysis", "Text Generation", "Summarization"])
 text_input = st.text_area("Enter Text")
